@@ -1,9 +1,10 @@
 const { Sequelize, DataTypes, Model } = require("sequelize")
 
-const sequelize = new Sequelize('empleado', 'root', '', {
-    host: 'localhost',
+
+const sequelize = new Sequelize('railway', 'root', 'dV3g3yMY4msTPWyJK16C', {
+    host: 'containers-us-west-171.railway.app',
     dialect: 'mysql',
-    port: 3306,
+    port: 7772,
     define: {
         timestamps: false
     }
